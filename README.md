@@ -15,7 +15,7 @@ This project was developed based on the following requirements:
 - **Navbar**: Includes menu items like Logo, Brand Name, Dashboard, Stats, and Special Offers. Active routes are visually indicated.
 - **Home Page**:
   - Attractive banner section with a button linking to the Dashboard.
-  - Sidebar with gadget categories (e.g., computers, phones, smartwatches, chargers, power banks).
+  - Sidebar with gadget categories.
   - Gadget cards displaying product image, name, price, and a "Details" button.
   - Clicking a category filters gadgets by that category.
   - Footer with meaningful information.
@@ -97,26 +97,6 @@ This project was developed based on the following requirements:
   - Displays an error message if an action fails.
 - **404 Page**: A visually appealing error page with navigation back to the home page.
 - **Hover Effects**: Interactive hover effects on buttons and cards for better user experience.
-
----
-
-## 📈 Challenge Tasks Implemented
-
-1. **Dynamic Background**:
-
-   - The home page background color differs from other pages using the `useLocation` hook.
-
-2. **Purchase Modal**:
-
-   - Clicking the "Purchase" button congratulates the user via a modal and clears the cart without reloading the page.
-
-3. **Cart Price Limit**:
-
-   - Prevents adding items to the cart if the total price exceeds $1000.
-   - Displays an error toast if the limit is exceeded.
-
-4. **Wishlist to Cart**:
-   - Items can be moved from the wishlist to the cart. If the cart exceeds the price limit, an error toast is displayed.
 
 ---
 
