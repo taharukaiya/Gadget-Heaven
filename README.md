@@ -8,7 +8,7 @@ Your go-to destination for the latest and greatest gadgets! Gadget Heaven is a f
 
 ---
 
-## 📄 Project Requirements
+## 📄 Project Description
 
 This project was developed based on the following requirements:
 
